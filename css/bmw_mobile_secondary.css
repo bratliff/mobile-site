@@ -1,0 +1,1065 @@
+/*
+	Project:	BMW Mobile
+	Agency:		KBS+ | Kirshenbaum Bond Senecal + Partners
+	Developer:	Tom Sunshine
+	Designer:	Chad O'Connell
+	Producer:	Gabriela Cid
+*/
+
+.clear {
+	clear:both;	
+}
+
+/* *********************************** Learn *********************************** */
+#learn {
+	display: none;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+#learn .content {
+	margin-top: 44px;
+}
+
+/* *********************************** Compare *********************************** */
+#compare {
+	display: none;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+#compare_text{
+	margin:100px 0 0 17px;
+	position:fixed;
+}
+
+#compare_text h2 {
+	color:#666;
+	text-transform:uppercase;
+	font-size:1.3em;
+	letter-spacing: -0.05em;
+}
+
+#compare .carousel_page h1{
+	margin:120px 0 0 17px;
+	color:#1c69d4;
+	text-transform:uppercase;
+	font-size:2em;
+	font-weight:bold;
+	letter-spacing: -0.05em;
+}
+
+#compare .content {
+	
+}
+
+#compare_container {
+	position:fixed;	
+}
+
+#comparison_chart  { 
+	position:fixed;
+	bottom:0;
+	/*overflow:hidden;*/
+	margin:0 auto;
+	
+}
+
+.bar_text {
+	color:#FC0;
+}
+
+.bar_text h1{
+	font-size:1.4em;
+}
+
+div.column {
+ position:relative;
+ /*height:400px;	
+ width:150px;*/
+ bottom:0;
+ left:0;
+ float:left;
+ perspective: 800px;
+}
+
+div.column div.bar { 
+	margin:0;
+	padding:0;
+	bottom:0;
+	position:absolute;
+}
+
+.flipped {
+  transform: rotateY( 180deg );
+}
+
+div.column div.bar_header { 
+	color:#FFF;
+	margin:0;
+	padding:0 0 0 10px;
+	top:0;
+	position:absolute;
+	z-index:2;
+	font-size:0.8em;
+}
+
+div.column div.bar_header { 
+	color:none;
+	background:none;
+}
+
+div.column div.bar_model { 
+	color:#FFF;
+	margin:46px 0 0 0;
+	padding:0 0 0 10px;
+	position:absolute;
+	z-index:2;
+	font-size:0.8em;
+}
+
+div.column div.bar_header h1 { 
+	margin: 10px 0 0 0;
+	font-size:1.2em;
+	font-weight:bold;
+	padding:0;
+	line-height:18px;
+}
+
+div.column div.bar_header { 
+	line-height: 1.1em;
+}
+
+div.column div.bar_footer h2 span { 
+	font-size:1.2em;
+}
+
+div.column div.bar_footer h2 { 
+	font-size:0.8em;
+	text-transform:none;
+}
+
+
+div.column .back ul li {
+	background:none;
+	border-bottom:#FFF solid 1px;
+	color:#fff;
+	padding:5px 0 0 5px;
+	font-size:0.7em;
+	font-weight:bold;
+	border-top: 1px solid #529afe;
+	border-bottom: 1px solid #013a88;
+}
+
+div.competitors .back ul li {
+	border-bottom: 1px solid #262626;
+	border-top: 1px solid #999;
+}
+
+ul#centerlist li {
+	border-top: none;
+	border-bottom: 1px solid #fff;
+}
+
+div.column .back ul li:hover {
+	background-color:#262626;
+}
+
+
+div.column div.bar_footer { 
+	color:#fff;
+	bottom:1px;
+	position:absolute;
+	z-index:3;
+	padding:0 0 0 10px;
+	height:10px;
+	margin:0;
+}
+
+
+#column1 div.bar { 
+	background:#666;
+}
+
+#column2 div.bar { 
+	background:#36C;
+}
+
+#column3 div.bar { 
+	background:#666;
+}
+
+.bar_container {
+      width: 100px;
+      height: 260px;
+      position: relative;
+      margin: 0 auto 40px;
+      -webkit-perspective: 800px;
+         -moz-perspective: 800px;
+           -o-perspective: 800px;
+              perspective: 800px;
+    }
+
+    .card {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      -webkit-transition: -webkit-transform 1s;
+         -moz-transition: -moz-transform 1s;
+           -o-transition: -o-transform 1s;
+              transition: transform 1s;
+      -webkit-transform-style: preserve-3d;
+         -moz-transform-style: preserve-3d;
+           -o-transform-style: preserve-3d;
+              transform-style: preserve-3d;
+    }
+
+    .card.flipped {
+      -webkit-transform: rotateY( 180deg );
+         -moz-transform: rotateY( 180deg );
+           -o-transform: rotateY( 180deg );
+              transform: rotateY( 180deg );
+    }
+	
+		figure {
+	  margin: 0;
+	}
+
+
+    .card figure {
+      display: block;
+      height: 100%;
+      width: 100%;
+      color: white;
+      position: absolute;
+      -webkit-backface-visibility: hidden;
+         -moz-backface-visibility: hidden;
+           -o-backface-visibility: hidden;
+              backface-visibility: hidden;
+    }
+
+    .card .front {
+
+    }
+
+    .card .back {
+      -webkit-transform: rotateY( 180deg );
+         -moz-transform: rotateY( 180deg );
+           -o-transform: rotateY( 180deg );
+              transform: rotateY( 180deg );
+			  background:#666;
+    }
+	
+#column2 .card .back {
+	background:#36C;
+}
+
+/* *********************************** Dealer Locator *********************************** */
+#dealer_locator {
+	display: none;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	position:relative;
+}
+
+#dealer_locator .content{
+
+	position:relative;
+}
+
+
+#map { 
+	position:absolute;
+	z-index:1;
+	background:url(../images/map_placeholder.jpg);
+	background-size: 100% auto;
+}
+
+#zipcode_field { 
+	position:absolute;
+	z-index:2;
+	height:50px;
+	bottom:30px;
+	text-align:center;
+}
+#zipcode_inner { 
+	margin:0 auto;
+	height:50px;
+	background:url(../images/bullseye.png) 10px 10px  #fff no-repeat;
+}
+
+#zipcode_inner input { 
+	float:left;
+	margin:15px 0 0 50px;
+	width:60px;
+}
+
+#map_canvas {
+	margin:45px 0 0 0;	
+}
+
+
+#dealer_arrow {
+	float:right;
+	height:15px;
+	width:15px;	
+	margin:12px 10px 0 0;
+}
+
+#get_dealer { 
+        width:100px;
+        height:100px;
+        background:red;
+}
+
+.go {
+	margin: 10px 15px;
+	display: inline-block;
+	border: 1px solid #003073;
+	background-color: #1c69d4;
+	float:right;
+}
+
+.go span {
+	display: block;
+/*	padding: 10px 20px 10px 32px;*/
+	padding: 8px 20px;
+/*	background: url(../images/arrow_right_white.png) 15px center no-repeat;*/
+	border-top: 1px solid #79a7e6;
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #fff;
+	text-transform:  uppercase;
+	cursor: pointer;
+}
+.go span:hover,
+.go span:active {
+	border-top-color: #12458c;
+	background-color: #12458c;
+} 
+
+/* *********************************** Dealer Info *********************************** */
+
+#dealer_info .content {
+	margin:0 20px;
+	line-height:1em;
+}
+
+
+#dealer_info div div {
+	font-size:.9em;
+}
+
+#dealer_info .content h1 {
+	margin:60px 0 10px 0;
+	color:#000;
+	height:20px;
+	padding:0px;
+	border-bottom:#CCC 1px solid;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+#dealer_info .content h2 {
+	margin:10px 0 10px 0;
+	font-size:1em;
+	padding:0px;
+	color:#000;
+}
+
+
+#dealer_info .content h3 {
+	color:#000;
+}
+
+.dealer_address {
+	float:left;
+	font-size:.9em;	
+	margin: 0 5px 10px 0;
+	
+}
+
+.dealer_address div:nth-child(3){
+	margin-bottom: 10px;
+}
+
+.dealer_hours {
+	float:right;
+	font-size:.9em;	
+	margin: 0px 5px 0px 0px;
+	width:140px;
+	
+}
+
+.city { 
+	margin:0 0 10px 0
+}
+
+.dealer_buttons div {
+	position:relative;
+	float:left;
+	padding:5px 15px;
+	background:#CCC;
+	border:1px #000 solid;
+	color:#000;
+	margin:5px 5px 5px 0;
+	cursor:pointer;
+}
+
+
+
+.dealer_buttons div#test_drive {
+	background:#1c69d4;
+	color:#fff;
+	}
+
+.dealer_buttons div a:link, .dealer_buttons div a:hover, .dealer_buttons div a:active, .dealer_buttons div a:visited {
+	color:#000;
+	text-decoration:none;	
+	font-weight:normal;
+}
+
+
+/* *********************************** Owners *********************************** */
+#owner_videos {
+	display: none;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+#owner_videos .content {
+	margin-top: 44px;
+	padding: 20px;
+}
+#owner_videos .content h3 {
+	margin-bottom: 5px;
+	color: #000;
+	font-weight: bold;
+	clear: both;
+}
+#owner_videos .content a.download_btn {
+	float: left;
+	margin-bottom: 20px;
+}
+
+
+/* *********************************** Special Offers  *********************************** */
+
+
+#offer_container {
+	position:fixed;	
+	width:3000px;
+}
+
+#menu_offers {
+	background:#fff;
+	position:fixed;
+	margin:300px 0 0 0;	
+}
+
+ul#menu_offers li {
+	margin:0 30px;
+	font-weight:bold;
+	padding:20px 0 0 36px;
+	height:30px;
+	background:url(../images/small_arrow.png) no-repeat #e6e7e8;
+	color:#666;	
+	border:#CCC solid 1px;
+	text-shadow:#FFF 0px 1px 1px;	
+}
+
+#menu_offers p {
+	margin:17px 30px;
+}
+
+#menu_offers ul  {
+	display:none;	
+}
+
+#menu_offers ul li {
+	background: url(../images/arrow_right_grey.png) 100% 60% no-repeat #fff;
+	font-weight:bold;
+	border:1px #000 solid;
+	padding:20px 0 0 36px;
+	height:30px;
+	color:#666;	
+	border:#CCC solid 1px;
+	text-shadow:#FFF 0px 1px 1px;		
+}
+
+/* *********************************** Special Offers Results *********************************** */
+
+ul#paychoice {
+	position:relative;
+	 
+}
+
+ul#paychoice li {
+	width:150px;
+	border:1px solid #CCC;	
+	padding-top:15px;
+	height:30px;
+	margin:44px 0 0 0;
+	float:left;
+	/*box-shadow: 0px 1px 1px 1px #000;*/
+	text-align:center;
+	color:#666;	
+	text-shadow:#FFF 0px 1px 1px;
+	text-transform:uppercase;
+	font-weight:bold;
+	background:#CCC;
+}
+ul#paychoice li:first-child {
+	color:#009;	
+	background:#fff;
+}
+#zipcode_dealers {
+	height:50px;
+	margin:15px auto 0 auto;
+	text-align:center;
+	border:1px #CCC solid;
+	position:relative;
+	/*-webkit-box-shadow: 0px 2px 5px 1px #000;*/
+	
+}
+
+#zipcode_dealers_inner {
+	margin:0 auto;
+	height:50px;
+	background:url(../images/bullseye.png) 10px 10px  #fff no-repeat;
+}
+
+#zipcode_dealers_inner input { 
+	float:left;
+	margin:15px 0 0 50px;
+	width:65px;
+}
+
+#offer_list {
+	text-align:center;
+}
+
+#offer_list p {
+	margin-left: 10px;
+	text-align:left;
+}
+
+#offer_list ul {
+	margin:0 auto 20px auto;
+	text-align:left;
+}
+
+#offer_list ul li {
+	border:1px solid #ccc;
+	height:25px;
+	padding:10px 15px 15px 15px;
+	font-weight:bold;
+	background: url(../images/right_arrow_grey.png) 97% 50% no-repeat #fff;
+}
+
+#offer_list ul li span{
+	margin:10px 0 0 20px;
+	padding:10px 0 0 0;
+}
+
+#offer_list ul li span strong{
+	font-size:1.7em;
+	font-weight:bold;
+}
+
+/* *********************************** Special Offer Page *********************************** */
+
+#offer_page .content {
+	padding:0;
+	color:#666;
+	font-size:0.8em;
+	text-align:center;
+}
+
+#offer_page h2 {
+	color:#000;
+	font-size:1.3em;
+	margin:70px auto 0 auto;
+}
+
+
+#offer_page p {
+	text-align:left;
+	padding:0 30px;
+}
+
+#offer_page h3 {
+	font-weight:bold;
+	text-align:left;
+	color:#000;
+	padding-left:30px;
+	margin:20px 0 0 0;
+	
+}
+
+#offer_image {
+	background:url(../images/vehicle_selector/z4_roadster.jpg) 100% 85% no-repeat;
+	background-size:100% auto;
+	height:130px;
+	margin:10px 0;	
+}
+
+
+#offer_page .button {
+	float:left;
+	margin: 0 0 0 17px;
+}
+
+
+
+/* *********************************** Manuals & Videos *********************************** */
+
+#manuals {
+	background:#fff;	
+}
+
+#manuals .content {
+	margin:50px 0 0 0;
+}
+
+#manuals .content h3 {
+	font-size:1.3em;
+	font-weight:bold;
+	border:5px #000 thick;
+	margin:15px 0 10px 0;
+	color:#333;
+	text-decoration:underline;
+}
+
+#manuals .content h2 {
+	padding: 100px 0 0 0;	
+}
+
+#manuals .content p {
+	margin-left:10px;
+}
+
+#manual_menu {
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	border-bottom: none;
+	/*position:absolute;
+	z-index:100;*/	
+}
+
+#manual_menu li{
+	list-style:none;
+}
+#manual_menu select {
+	left: 20px;
+	margin-top: 50px;
+	width: 90%;
+}
+#manual_menu select#series_sort {
+	margin: 0;
+}
+#manuals div.button {
+	opacity: 0;
+}
+
+#view_manual {
+    width:100px;
+	height:80px;
+	background:#ccc;
+	display:block;	
+}
+
+.download_btn {
+	background-color: #e6e7e9;
+	padding: 10px;
+	border: 1px solid #999;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #262626;
+	text-align: center;
+	text-decoration: none;
+}
+
+.videopage {
+	background:#FFF;
+	color:#000;	
+}
+
+.videopage .content {
+	margin: 70px 0 0 0;
+	padding: 0 20px;	
+}
+
+.videopage .content p {
+	line-height:18px;
+	margin:0 0 0 17px;
+}
+
+.videopage .content h3 {
+	color:#000;	
+	margin:0 0 10px 0;
+	font-weight:bold;
+}
+
+.videopage .content p span {
+	font-size:0.8em;
+}
+
+.videopage .content strong {
+	font-weight:bold;
+}
+
+.video_image {
+	position:relative;
+	background-size:100% auto;
+	height:180px;	
+	margin:10px 10px 10px 17px;
+}
+
+
+#video_image1 {
+	background:url(../images/video_image_1.jpg);
+}
+#video_image2 {
+	background:url(../images/video_image_1.jpg);
+}
+#video_image3 {
+	background:url(../images/video_image_1.jpg);
+}
+
+.play_vid {
+	position:absolute;
+	background:url(../images/video_play_arrow.png) no-repeat;
+	background-size:100% 100%;
+	width:40px;
+	height:40px;
+	margin:0 0 0 17px;
+	bottom:5px;
+	left:5px;
+	cursor:pointer;
+}
+
+
+select {
+/*margin-left:20px;*/
+}
+
+.more_info {
+	display:none;
+	margin:0 17px;
+	font-size:0.8em;
+	line-height:1.2em;
+}
+
+.more_info span{
+	font-size:0.8em;
+		
+}
+
+/* custom class to set styles for select boxes*/
+
+.customStyleSelectBox {
+	font-weight:bold;
+	padding:20px 0 0 36px;
+	height:30px;
+	background:url(../images/small_arrow.png) no-repeat #e6e7e8;
+	color:#666;	
+	text-shadow:#FFF 0px 1px 1px;
+	z-index:100;
+    border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid #FFFFFF;
+}
+
+.customStyleSelectBox.changed {
+/* You can use this if you want a different style after user has made a selection */
+}
+
+/* on the next line we add a down arrow on the right to indicate that it is a select box */
+.customStyleSelectBoxInner {
+background:url(canvas-list-nav-item-arrow-.gif) no-repeat center right;
+}
+
+
+
+/* *********************************** Applications *********************************** */
+#applications {
+	display: none;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+#applications .content {
+	margin-top: 44px;
+	
+}
+
+#applications .content p {
+	font-size: 0.8em;
+}
+
+#applications .content p strong {
+	font-size: 1.1em;
+	font-weight:bold;
+}
+
+#applications .more_info {
+	margin-left: 96px;
+}
+
+.apps_image {
+	position:relative;
+	
+	height:195px;	
+	margin:10px 10px 10px 17px;
+}
+
+#apps_image1 {
+	background:url(../images/apps_image_1.jpg) no-repeat;
+	background-size:100% auto;
+}
+#apps_image2 {
+	background:url(../images/apps_image_2.jpg) no-repeat;
+	background-size:100% auto;
+}
+#apps_image3 {
+	background:url(../images/video_image_1.jpg);
+}
+
+.download_app { 
+	margin:10px;
+}
+
+.download_app img{
+	width:65px;
+	float:left;	
+	margin:0px 10px 10px 10px;
+}
+
+.download_app p{ 
+	
+}
+
+
+/* *********************************** CPO *********************************** */
+#cpo {
+	display: none;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+#cpo .content {
+	padding:0px 10px;
+	color:#666;
+	font-size:0.8em;
+}
+
+
+
+/* *********************************** Financial Services *********************************** */
+
+
+#finance .content {
+	padding:0px 10px;
+	color:#666;
+	font-size:0.8em;
+}
+
+#fs_image {
+	background:url(../images/fs_image.jpg) no-repeat;
+	background-size:100% auto;
+	height:130px;
+	margin:43px 0 0 0;	
+}
+
+
+/* *********************************** Roadside Assistance *********************************** */
+#roadside .content {
+	padding:0px 10px;
+	color:#666;
+	font-size:0.8em;
+}
+
+#roadside_image {
+	background:url(../images/img_roadside.jpg) no-repeat;
+	background-size:100% auto;
+	height:130px;
+	margin:43px 0 0 0;	
+}
+
+
+/* *********************************** Accessories *********************************** */
+#accessories .content {
+	padding:0px 10px;
+	color:#666;
+	font-size:0.8em;
+}
+
+#accessories_image {
+	background:url(../images/accessories_image.jpg) no-repeat;
+	background-size:100% auto;
+	height:130px;
+	margin:43px 0 0 0;	
+}
+
+/* *********************************** News Feed *********************************** */
+
+.carousel_container {
+	overflow:hidden;
+}
+
+#news_container {
+	position:fixed;	
+	width:3000px;
+}
+
+#news_caption {
+	color:#fff;
+	font-size:1.4em;
+	margin:250px 0 0 0;
+	height:90px;
+	position:absolute;
+	background:#000;
+	-khtml-opacity:.50; 
+	-moz-opacity:.50; 
+	-ms-filter:"alpha(opacity=50)";
+	filter:alpha(opacity=50);
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
+	opacity:.50; 
+}
+
+#news_text{
+	margin:250px 0 0 0;
+	padding:12px 25px;
+	position:absolute;
+	color:#fff;
+	font-family: "Helvetica Neue Bold";
+	font-size:1.2em;
+}
+
+#newsfeed .carousel_page h2 {
+    margin:250px 0 0 0;	
+	padding:12px 25px;
+	position:absolute;
+	color:#fff;
+	font-family: "Helvetica Neue Bold";
+	font-size:1.2em;
+	z-index:3;
+}
+
+#news_container {
+	position:absolute;	
+}
+
+
+ul#newslist {
+	position:fixed;
+	margin:330px 0 0 0;
+	z-index:4;
+}
+
+ul#newslist li{
+	padding:20px;	
+	height: 36px;
+	border-top: 1px solid #aeaeae;
+	border-bottom: 1px solid #aeaeae;
+	font-family: "Helvetica Neue";
+	font-size: 0.8em;
+	color: #646464;
+	/*text-shadow: #fff 0 1px 1px;*/
+	background-color: #e6e7e8;
+	line-height:16px;
+}
+
+ul#newslist img {
+	width:60px;
+	background:#000;
+	float:left;
+	margin-right:20px;
+}
+
+ul#newslist li strong{
+	font-family: "Helvetica Neue Bold";
+}
+
+/* *********************************** News Article Page *********************************** */
+
+#news_page {
+	margin: 44px 0 0 0;	
+	
+}
+#news_page .content {
+	padding:0px 20px;
+	color:#666;
+	font-size:0.8em;
+	position:relative;
+}
+
+#news_page .content h1 {
+	color:#000;
+	text-transform:uppercase;
+	font-size:1.7em;
+	font-weight:bold;
+	margin:15px 0 0 0;
+}
+
+
+img#news_image {
+}
+
+
+/* ***********************************Test Drive Form *********************************** */
+
+#drive_form {
+	margin:60px 10px 0 10px;
+	font-size:.8em;	
+}
+
+#drive_form input{
+	margin:10px 0;	
+}
+
+.td_header {
+	height: 44px;
+	line-height: 44px;
+	padding-left: 30px;
+	border-top: 1px solid #aeaeae;
+	bottom: 1px solid #e6e7e8;
+	font-family: "Helvetica Neue Bold";
+	font-size: 1em;
+	color: #646464;
+	background: url(../images/arrow_down.png) right center no-repeat #ccc;
+	text-shadow: #fff 0 1px 1px;
+}
+
+.td_section {
+	height: 44px;
+	line-height: 44px;
+	padding-left: 30px;
+	border-top: 1px solid #aeaeae;
+	bottom: 1px solid #e6e7e8;
+	font-family: "Helvetica Neue Bold";
+	font-size: 1em;
+	color: #646464;
+	background: url(../images/arrow_down.png) right center no-repeat #ccc;
+	text-shadow: #fff 0 1px 1px;
+}
+
+.td_info { 
+	width:100%;
+	margin:0.8em 0 2em 0;
+}
+
+.td_info div{
+	font-size:0.9em;
+	width:29%;
+	margin:5px 10px 15px 0px;
+	float:left;
+}
+
+div#td_address {
+		
+}
+

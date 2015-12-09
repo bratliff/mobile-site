@@ -1,0 +1,842 @@
+<!--
+        Project:	BMW Mobile Redesign
+        Agency:		KBS+ | Kirshenbaum Bond Senecal + Partners
+        Developer:	Tom Sunshine, Ben Ratliff, Keith Rosenberg
+        Designer:	Chad O'Connell
+        Producer:	Gabriela Cid
+-->
+
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>BMW USA</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+        <meta charset="UTF-8">
+        <link href="css/bmw_mobile_primary.css" rel="stylesheet" type="text/css" />
+        <link href="css/bmw_mobile_secondary.css" rel="stylesheet" type="text/css" />
+    </head> 
+    <body class="device-height"> 
+        <!-- <div id="loader"></div> -->
+        <div id="menu_bg"><div id="menu">
+                <ul>
+                    <li class="active">Home</li>
+                    <li>Vehicles</li>
+                    <li>Build</li>
+                    <li>Special Offers</li>
+                    <li>Compare</li>
+                    <li>Dealer Locator</li>
+                    <li>Newsfeed</li>
+                    <li>Owners</li>
+                    <li>Enthusiasts</li>
+                    <li>Apps</li>
+                    <li>Certified Pre-Owned</li>
+                    <li>BMW Financial Services</li>
+                </ul>
+                <div id="footer">
+                    <p>&copy; 2012 BMW of North America, LLC</p>
+                    <ul id="links">
+                        <li id="privacy">Privacy</li>
+                        <li id="legal">Legal</li>
+                    </ul>
+                    <div class="clearer"></div>
+                </div>
+            </div></div>
+        <div id="menu_whitespace"></div>
+
+        <div id="logo"><img src="images/logo_bmw.png" /></div>
+
+        <div id="header" class="device-width">
+            <div id="btn_menu"><img src="images/btn_menu.png" /></div>
+            <div id="back_btn"><img src="images/back_btn.png" /></div>
+            <h1>BMW USA</h1>
+        </div>
+
+        <div id="home" class="page device-height">
+            <div class="content">
+                <ul class="carousel_pager">
+                </ul>
+                <div class="carousel_wrapper device-height">
+                </div>
+            </div>		
+        </div>
+
+        <div id="overview" class="modal page device-height">
+            <div class="content">
+                <ul class="carousel_pager">
+                    <li class="carousel_page1"><img src="images/carousel_bullet_active.png" /></li>
+                    <li class="carousel_page2"><img src="images/carousel_bullet.png" /></li>
+                    <li class="carousel_page3"><img src="images/carousel_bullet.png" /></li>
+                </ul>
+                <div class="carousel_wrapper device-height">
+                    <div class="carousel_page device-width device-height" style="background-image:url(images/home_fma01.jpg)">
+                        <h4>Starting at $31,500</h4>
+                        <h2>Model 1</h2>
+                        <div class="gallery_btn"></div>
+                        <div class="experience"></div>
+                        <div class="model_details device-width">
+                            <p><span>ENGINE:</span><br /><div class="engine_desc">3.0-liter, DOHC, inline 6-cylinder with rear-wheel drive</div></p>
+                            <p><span>28</span>(MPG HWY)
+                                <span>230</span>(HP)
+                                <span>5.7</span>(0-60)</p>
+                        </div>
+                    </div>
+                    <div class="carousel_page device-width device-height" style="background-image:url(images/home_fma02.jpg)">
+                        <h4>Starting at $31,500</h4>
+                        <h2>Model 2</h2>
+                        <div class="gallery_btn"></div>
+                        <div class="experience"></div>
+                        <div class="model_details device-width">
+                            <p><span>ENGINE:</span><br /><div class="engine_desc">3.0-liter, DOHC, inline 6-cylinder with rear-wheel drive</div></p>
+                            <p><span>28</span>(MPG HWY)
+                                <span>230</span>(HP)
+                                <span>5.7</span>(0-60)</p>
+                        </div>
+                    </div>
+                    <div class="carousel_page device-width device-height" style="background-image:url(images/home_fma03.jpg)">
+                        <h4>Starting at $31,500</h4>
+                        <h2>Model 3</h2>
+                        <div class="gallery_btn"></div>
+                        <div class="experience"></div>
+                        <div class="model_details device-width">
+                            <p><span>ENGINE:</span><br /><div class="engine_desc">3.0-liter, DOHC, inline 6-cylinder with rear-wheel drive</div></p>
+                            <p><span>28</span>(MPG HWY)
+                                <span>230</span>(HP)
+                                <span>5.7</span>(0-60)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="model_overview" class="device-width">
+                    <img src="images/overview_bar.png" id="overview_bar" alt="model overview options"><br/>
+                    <ul id="model_overview_nav">
+                        <li>Learn</li>
+                        <li>Build</li>
+                        <li>Drive</li>
+                        <li>Compare</li>
+                        <li>Special Offers</li>
+                        <li>Owners Manual</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="byo_share">
+            <ul>
+                <li>Explore Vehicle</li>
+                <li>See Special Offers</li>
+                <li>Get a Quote</li>
+                <li><a href="mailto:build@bmwusa.com&subject=Build Your Own">E-mail Your Build</a></li>
+                <li><a href="">Share on Facebook</a></li>
+                <li><a href="">Share on Twitter</a></li>
+                <li><a href="">Share on Google+</a></li>
+            </ul>
+        </div>
+        <div id="byo_share_whitespace"></div>
+
+        <div id="build_your_own" class="modal page device-width device-height">
+            <div class="content">
+                <div id="byo_touchpad" class="page device-width"></div>
+                <div id="stage" class="device-width"><img src="" /></div>
+                <div id="materials_nav">
+                    <ul>
+                        <li class="active">Paint</li>
+                        <li>Wheels</li>
+                        <li>Leather</li>
+                        <li>Trim</li>
+                        <li>Accent</li>
+                        <li class="share"><img src="images/icon_share.png" /></li>
+                    </ul>
+                </div>
+                <div id="warning"><span></span><div id="warning_arrow"></div></div>
+                <ul id="materials_tray"></ul>
+            </div>
+        </div>
+
+        <div id="mobile_gallery" class="modal page device-height">
+            <div class="content">
+                <div id="close_btn"><img src="images/close_btn.png" alt="close btn"></div>
+                <div id="rotate" class="device-height device-width"><img src="images/rotate.gif" width="263" height="238" alt="Rotate"></div>
+                <div class="carousel_container device-width">
+                    <ul class="carousel_pager">
+                        <li class="carousel_page1"><img src="images/carousel_bullet_active.png" /></li>
+                        <li class="carousel_page2"><img src="images/carousel_bullet.png" /></li>
+                        <li class="carousel_page3"><img src="images/carousel_bullet.png" /></li>
+                    </ul>
+                    <div class="carousel_wrapper device-height">
+                        <div class="carousel_page device-width device-height" style="background-image:url(images/home_fma01.jpg)">
+                            <h2>Visit BMW<br />Financial Services</h2>
+                            <div><span>Go Now</span></div> 
+                        </div>
+                        <div class="carousel_page device-width device-height" style="background-image:url(images/home_fma02.jpg)">
+                            <h2>Panel #2</h2>
+                            <div><span>Learn More</span></div> 
+                        </div>
+                        <div class="carousel_page device-width device-height" style="background-image:url(images/home_fma03.jpg)">
+                            <h2>Panel #3</h2>
+                            <div><span>More Info</span></div> 
+                        </div>
+                    </div>
+                </div>
+                <div id="share_btn">Share</div>
+                <div id="share_menu">
+                    <ul>
+                        <li>See Special Offers</li>
+                        <li>Download Wallpaper</li>
+                        <li>Email Image</li>
+                        <li>Share on Facebook</li>
+                        <li>Share on Twitter</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="test_drive" class="modal page device-width device-height">
+            <div class="content">
+                <div id="drive_form">
+                    To schedule a test drive, fill out the required fields below so someone from BMW can get in touch with you.
+                    <br />
+                    <form>
+                        <input type="text" value="Zip Code" class="form_field" /><br />
+                        *Select a dealer:<br/>
+                        <div class="td_header">Dealership</div>
+                        <div class="td_info">
+                            <div id="td_address">67 Wall street
+                                New York, NY 10005</div>
+                            <div id="td_phone">(212) 509-1900</div>
+                            <div id="td_map">View Map</div>
+                        </div>
+                        <div class="clear"></div>
+                        *Select a vehicle you would like to test drive:<br/>
+                        <div class="td_section">5 Series</div>
+                        <div class="td_section">Gran Tourismo</div>
+                        <div class="td_section">5351 xDrive</div>
+                        *Fill out your contact information:<br />
+                        <input type="text" value="First name" class="form_field" /><br />
+                        <input type="text" value="Last name" class="form_field" /><br />
+                        <br />
+                        Select method of contact:<br />
+                        Email: <input type="radio" class="contact_radio" name="contact_method" value="Email"> Phone: <input type="radio" class="contact_radio" name="contact_method" value="Phone"><br/>
+                        <input type="contact" value="Email" id="contact_info" class="form_field" /><br />
+                        <input type="submit" value="Submit" />
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div id="offers" class="modal page device-height">
+            <div class="content">
+                <div id="offer_container">
+                    <div class="carousel_container device-width">
+                        <ul class="carousel_pager">
+                            <li class="carousel_page1"><img src="images/carousel_bullet_active.png" /></li>
+                            <li class="carousel_page2"><img src="images/carousel_bullet.png" /></li>
+                            <li class="carousel_page3"><img src="images/carousel_bullet.png" /></li>
+                        </ul>
+                        <div class="carousel_wrapper device-height">
+                            <div class="carousel_page device-width device-height" style="background-image:url(images/home_fma01.jpg)">
+                                <h2>Lease the X3<br />for $000/month.</h2>
+                                <div class="button"><a>Learn more</a></div> 
+                            </div>
+                            <div class="carousel_page device-width device-height" style="background-image:url(images/home_fma02.jpg)">
+                                <h2>Offer #2</h2>
+                                <div class="button"><a>Learn More</a></div> 
+                            </div>
+                            <div class="carousel_page device-width device-height" style="background-image:url(images/home_fma03.jpg)">
+                                <h2>Offer #3</h2>
+                                <div class="button"><a>Test Drive</a></div> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul id="menu_offers">
+                        <p>Browse by Series:</p>
+                        <li>1 Series</li>
+                        <ul>
+                            <li>Coupe</li>
+                            <li>Convertible</li>
+                        </ul>
+                        <li>3 Series</li>
+                        <ul>
+                            <li>Coupe</li>
+                            <li>Convertible</li>
+                        </ul>
+                        <li>5 Series</li>
+                        <ul>
+                            <li>Coupe</li>
+                            <li>Convertible</li>
+                        </ul>
+                        <li>6 Series</li>
+                        <ul>
+                            <li>Coupe</li>
+                            <li>Convertible</li>
+                        </ul>
+                        <li>7 Series</li>
+                        <ul>
+                            <li>Coupe</li>
+                            <li>Convertible</li>
+                        </ul>
+                        <li>X1 Series</li>
+                        <ul>
+                            <li>Coupe</li>
+                            <li>Convertible</li>
+                        </ul>
+                        <li>X3 Series</li>
+                        <ul>
+                            <li>Coupe</li>
+                            <li>Convertible</li>
+                        </ul>
+                        <li>X5 Series</li>
+                        <li>X Series</li>
+                    </ul>
+                </div>   
+            </div>   
+        </div>
+
+        <div id="offer_results" class="modal page device-height">
+            <div class="content">
+                <ul id="paychoice">
+                    <li>Lease</li>
+                    <li>Finance</li>
+                </ul>
+                <div class="clear"></div>
+                <div id="zipcode_dealers">
+                    <div id="zipcode_dealers_inner">
+                        <input type="text" id="searchByAddressText" class="watermarkOn" placeholder="Enter a Location" autocomplete="off"/><div class="go"><span>SEARCH</span></div>
+                    </div>
+                </div>
+                <div id="offer_list">
+                    <p>328i SEDAN</p>
+                    <ul>
+                        <li>2012 Lease<span><strong>$329</strong>/month</span></li>
+                        <li>2013 Lease<span><strong>$369</strong>/month</span></li>
+                    </ul>
+                    <p>328i xDrive SEDAN</p>
+                    <ul>
+                        <li>2012 Lease<span><strong>$349</strong>/month</span></li>
+                        <li>2013 Lease<span><strong>$389</strong>/month</span></li>
+                    </ul>
+                </div>
+
+            </div><!-- end content -->   
+        </div>
+
+        <div id="offer_page" class="modal page device-height">
+            <div class="content">
+                <h2></h2>
+                <div id="offer_image" class="device-width"></div>
+                <h3></h3>
+                <p> </p>
+                <div class="button"><span>Contact Dealer</span></div> 
+
+            </div><!-- end content -->   
+        </div>
+
+        <div id="compare" class="modal page device-width device-height">
+            <div class="content">
+                <div id="compare_text"><h2>COMPARE</h2></div>
+                <div id="compare_container"> 
+                    <div class="carousel_container device-width"> 
+                        <ul class="carousel_pager">
+                            <li class="carousel_page1"><img src="images/carousel_bullet_active.png" /></li>
+                            <li class="carousel_page2"><img src="images/carousel_bullet.png" /></li>
+                            <li class="carousel_page3"><img src="images/carousel_bullet.png" /></li>
+                        </ul>
+                        <div class="carousel_wrapper">
+                            <div class="carousel_page device-width device-height"><h1>MSRP</h1></div>
+                            <div class="carousel_page device-width device-height"><h1>Horsepower</h1></div>
+                            <div class="carousel_page device-width device-height"><h1>MPG</h1></div>
+                        </div>
+                    </div>
+
+                    <div id="comparison_chart"> 
+                        <div id="column1" class="column competitors">
+                            <div class="bar_container">
+                                <div class="card">
+                                    <figure class="front">
+                                        <div class="bar_header"></div>
+                                        <div class="bar_footer"></div>
+                                        <div class="bar"></div>
+                                    </figure>
+                                    <figure class="back">
+                                        <ul>
+                                            <li id="first">Mercedes-Benz</li>
+                                            <li id="second">Acura</li>
+                                            <li>Lexus</li>
+                                            <li>Infiniti</li>
+                                        </ul>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="column2" class="column">						
+                            <div class="bar_container">
+                                <div class="card">
+                                    <figure class="front">
+                                        <div class="bar_header"><h1>BMW</h1><br />M3 Coupe</div>
+                                        <div class="bar_footer"><h2><span>228</span>hp</h2></div>
+                                        <div class="bar"></div>
+                                    </figure>
+                                    <figure class="back">
+                                        <ul>
+                                            <li>M3 Convertible</li>
+                                            <li>M5 Sedan</li>
+                                            <li>M6 Coupe</li>
+                                            <li>M6 Convertible</li>
+                                        </ul>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="column3" class="column competitors">
+                            <div class="bar_container">
+                                <div class="card">
+                                    <figure class="front">
+                                        <div class="bar_header"></div>
+                                        <div class="bar_footer"></div>
+                                        <div class="bar"></div>
+                                    </figure>
+                                    <figure class="back">
+
+                                        <ul>
+                                            <li>Mercedes-Benz</li>
+                                            <li>Acura</li>
+                                            <li>Lexus</li>
+                                            <li>Infiniti</li>
+                                        </ul>
+
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end comparison chart -->
+        </div><!-- end content container -->      
+    </div>
+
+    <div id="dealer_locator" class="modal page device-width device-height">
+        <div class="content">
+            <!--<div id="map"><div id="mapSpinner">
+                    <img src="https://cache.bmwusa.com/image_464a3c82-fc50-408e-b9ff-e459d79a7158.arox" />
+                </div> -->
+            <div id="map_canvas" style="width:100%; height:100%"></div>
+            <!--</div>-->
+            <div id="zipcode_field">
+                <div id="zipcode_inner">
+                    <div id="searchBar">
+                        <input id="searchByAddress" class="" type="text" placeholder="Enter a location" autocomplete="off" />
+                        <div class="go"><span>Search</span></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="dealer_info" class="modal page device-width device-height">
+    <div class="content">
+        <h1>Dealer Info</h1>
+
+        <div id="NVS">
+            <h2>New Vehicles</h2>
+            <div class="dealer_address">
+                <h3>ADDRESS:</h3>
+                <div></div>
+                <div></div>
+                <h3>PHONE NUMBER:</h3>
+                <div></div>      
+            </div>
+
+            <div class="dealer_hours">
+                <h3>Hours of Operation:</h3>
+                <div class="hours"></div>
+            </div> 
+            <div class="clear"></div>
+            <div class="dealer_buttons">
+                <div>Directions</div>
+                <div>Call</div>
+                <div id="test_drive">Test Drive</div>
+            </div>
+        </div>  
+
+        <div class="clear"></div>
+
+        <div id="CPO">
+            <h2>Certified Pre-Owned Vehicles</h2>
+            <div class="dealer_address">
+                <h3>ADDRESS:</h3>
+                <div></div>
+                <div></div>
+                <h3>PHONE NUMBER:</h3>
+                <div></div>      
+            </div>
+
+            <div class="dealer_hours">
+                <h3>Hours of Operation:</h3>
+                <div class="hours"></div>
+            </div> 
+            <div class="clear"></div>
+            <div class="dealer_buttons">
+                <div>Directions</div>
+                <div>Call</div>
+                <div id="test_drive">Test Drive</div>
+            </div>
+        </div>  
+
+        <div class="clear"></div>
+
+
+
+        <div id="CCRC">
+            <h2>CCRC</h2>
+            <div class="dealer_address">
+                <h3>ADDRESS:</h3>
+                <div></div>
+                <div></div>
+                <h3>PHONE NUMBER:</h3>
+                <div></div>      
+            </div>
+
+            <div class="dealer_hours">
+                <h3>Hours of Operation:</h3>
+                <div class="hours"></div>
+            </div> 
+            <div class="clear"></div>
+            <div class="dealer_buttons">
+                <div>Directions</div>
+                <div>Call</div>
+                <div id="test_drive">Test Drive</div>
+            </div>
+        </div>  
+
+        <div class="clear"></div>
+
+
+        <div id="CBS">
+            <h2>CBS</h2>
+            <div class="dealer_address">
+                <h3>ADDRESS:</h3>
+                <div></div>
+                <div></div>
+                <h3>PHONE NUMBER:</h3>
+                <div></div>      
+            </div>
+
+            <div class="dealer_hours">
+                <h3>Hours of Operation:</h3>
+                <div class="hours"></div>
+            </div> 
+            <div class="clear"></div>
+            <div class="dealer_buttons">
+                <div>Directions</div>
+                <div>Call</div>
+                <div id="test_drive">Test Drive</div>
+            </div>
+        </div>  
+        <div class="clear"></div>
+
+
+    </div><!-- close content div -->
+</div>
+
+<div id="newsfeed" class="modal page device-height">
+    <div class="content">
+        <div id="news_container"> 
+            <div class="carousel_container device-width"> 
+                <ul class="carousel_pager">
+                    <li class="carousel_page1"><img src="images/carousel_bullet_active.png" /></li>
+                    <li class="carousel_page2"><img src="images/carousel_bullet.png" /></li>
+                    <li class="carousel_page3"><img src="images/carousel_bullet.png" /></li>
+                </ul>
+                <div class="carousel_wrapper">
+                    <div class="carousel_page device-width device-height" style="background-image:url(images/home_fma02.jpg)"><h2>BMW Team RLL at Long Beach; Four Years -- Four Podiums</h2></div>
+                    <div class="carousel_page device-width device-height" style="background-image:url(images/home_fma01.jpg)"><h2>Headline #2</h2></div>
+                    <div class="carousel_page device-width device-height" style="background-image:url(images/home_fma03.jpg)"><h2>Headline #3</h2></div>
+                </div>
+            </div>
+
+            <div id="news_caption" class="device-width"></div>
+            <!-- <div id="news_text">BMW Team RLL at Long Beach; Four Years -- Four Podiums</div> -->
+            <ul class="device-width" id="newslist">
+                <li><div></div><strong>Lorem ipsum dolor sit amet</strong><br />
+                    Suspendisse ultrices, dui et molestie...</li>
+                <li><div></div><strong>Lorem ipsum dolor sit amet</strong><br />
+                    Suspendisse ultrices, dui et molestie...</li>
+                <li><div></div><strong>Lorem ipsum dolor sit amet</strong><br />
+                    Suspendisse ultrices, dui et molestie...</li>
+                <li><div></div><strong>Lorem ipsum dolor sit amet</strong><br />
+                    Suspendisse ultrices, dui et molestie...</li>
+                <li><div></div><strong>Lorem ipsum dolor sit amet</strong><br />
+                    Suspendisse ultrices, dui et molestie...</li>
+                <li><div></div><strong>Lorem ipsum dolor sit amet</strong><br />
+                    Suspendisse ultrices, dui et molestie...</li>
+                <li><div></div><strong>Lorem ipsum dolor sit amet</strong><br />
+                    Suspendisse ultrices, dui et molestie...</li>
+                <li><div></div><strong>Lorem ipsum dolor sit amet</strong><br />
+                    Suspendisse ultrices, dui et molestie...</li>
+                <li><div></div><strong>Lorem ipsum dolor sit amet</strong><br />
+                    Suspendisse ultrices, dui et molestie...</li>
+                <li><div></div><strong>Lorem ipsum dolor sit amet</strong><br />
+                    Suspendisse ultrices, dui et molestie...</li>
+
+            </ul>
+        </div>
+    </div><!-- end news container -->      
+</div>
+
+<div id="news_page" class="modal page device-height">
+</div>
+
+<div id="owners" class="modal page device-height">
+    <div class="content">
+        <ul class="carousel_pager">
+            <li class="carousel_page1"><img src="images/carousel_bullet_active.png" /></li>
+            <li class="carousel_page2"><img src="images/carousel_bullet.png" /></li>
+            <li class="carousel_page3"><img src="images/carousel_bullet.png" /></li>
+        </ul>
+        <div class="carousel_wrapper device-height">
+            <div class="carousel_page device-width device-height" style="background-image:url(images/home_fma01.jpg)">
+                <h2>Visit BMW<br />Financial Services</h2>
+                <div class="button"><a>Go Now</a></div> 
+            </div>
+            <div class="carousel_page device-width device-height" style="background-image:url(images/home_fma02.jpg)">
+                <h2>Panel #2</h2>
+                <div class="button"><a>Learn More</a></div> 
+            </div>
+            <div class="carousel_page device-width device-height" style="background-image:url(images/home_fma03.jpg)">
+                <h2>Panel #3</h2>
+                <div class="button"><a>More Info</a></div> 
+            </div>
+        </div>
+        <ul class="menu_landingpage device-width" id="owner_menu">
+            <li>Manuals &amp; Videos</li>
+            <li>Accessories</li>
+            <li>Roadside Assistance</li>
+        </ul>
+    </div>      
+</div>
+
+<div id="manuals" class="modal page device-width device-height">
+    <div class="content">
+        <p>Select Vehicle:</p>
+        <div id="manual_menu"></div>
+        <div class="button"><a>Search</a></div>
+    </div>      
+</div>
+
+<div id="owner_videos" class="modal page device-width device-height">
+    <div class="content">
+        <h3>2012 335i Sedan Owners</h3>
+        <a class="download_btn">Download Manual</a><br />
+        <div id="video_image1" class="video_image device_width"><div class="play_vid"></div></div>
+        <p><strong>Headlights</strong> (02:09)<br />
+            A quick overview of your vehicles headlights.</p>
+        <div id="video_image2" class="video_image device_width"><div class="play_vid"></div></div> 
+        <p><strong>Headlights</strong> (02:09)<br />
+            A quick overview of your vehicles headlights.</p>
+        <div id="video_image2" class="video_image device_width"><div class="play_vid"></div></div> 
+        <p><strong>Headlights</strong> (02:09)<br />
+            A quick overview of your vehicles headlights.</p>
+        <div id="video_image2" class="video_image device_width"><div class="play_vid"></div></div> 
+        <p><strong>Headlights</strong> (02:09)<br />
+            A quick overview of your vehicles headlights.</p>
+        <div id="video_image2" class="video_image device_width"><div class="play_vid"></div></div> 
+        <p><strong>Headlights</strong> (02:09)<br />
+            A quick overview of your vehicles headlights.</p>
+    </div>          
+</div>
+
+<div id="videos" class="modal page device-height videopage">
+    <div class="content">
+        <SELECT NAME="sorting">
+            <OPTION SELECTED>INNOVATIONS</OPTION>
+            <OPTION>MOST&nbsp;VISITED</OPTION>
+            <OPTION>TITLE</OPTION>
+        </SELECT>
+        <br />
+        <div id="video_image1" class="video_image device_width"><div class="play_vid"></div></div>
+        <p><strong>BMW ActiveHybrid 5</strong> (01:41)<br />
+            The BMW ActiveHybrid 5 represents the <span><a href="#">Read more...</a></span></p>
+        <div class="more_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec lobortis velit. Suspendisse accumsan fermentum justo, ut tristique mi consequat id. Phasellus massa lacus, bibendum non eleifend vitae, tincidunt et velit. Pellentesque tempor lectus a nisl eleifend commodo. <span><a href="#">Less info...</a></span></div>
+
+        <div id="video_image2" class="video_image device_width"><div class="play_vid"></div></div>
+        <p><strong>BMW ActiveHybrid 5</strong> (01:41)<br />
+            The BMW ActiveHybrid 5 represents the <span><a href="#">Read more...</a></span></p>
+        <div class="more_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec lobortis velit. Suspendisse accumsan fermentum justo, ut tristique mi consequat id. Phasellus massa lacus, bibendum non eleifend vitae, tincidunt et velit. Pellentesque tempor lectus a nisl eleifend commodo.<span><a href="#">Less info...</a></span></div>
+
+        <div id="video_image3" class="video_image device_width"><div class="play_vid"></div></div>
+        <p><strong>BMW ActiveHybrid 5</strong> (01:41)<br />
+            The BMW ActiveHybrid 5 represents the <span><a href="#">Read more...</a></span></p>
+        <div class="more_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec lobortis velit. Suspendisse accumsan fermentum justo, ut tristique mi consequat id. Phasellus massa lacus, bibendum non eleifend vitae, tincidunt et velit. Pellentesque tempor lectus a nisl eleifend commodo.<span><a href="#">Less info...</a></span></div> 
+    </div>          
+</div>
+
+<div id="accessories" class="modal page device-height">
+    <div id="accessories_image" class="device-width"></div>
+    <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris neque magna, tristique eget varius id, condimentum lacinia nunc. Mauris nisl lacus, aliquam sit amet dignissim ut, dignissim eget arcu. Nullam eget eros non lectus malesuada convallis vitae quis magna. Nulla purus dolor, fringilla sed scelerisque ut, hendrerit in dui.</p>
+        <div class="button"><a href="#">GO NOW</a></div> 
+
+    </div>      
+</div>
+
+
+
+<div id="roadside" class="modal page device-height">
+    <div id="roadside_image" class="device-width"></div>
+    <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris neque magna, tristique eget varius id, condimentum lacinia nunc. Mauris nisl lacus, aliquam sit amet dignissim ut, dignissim eget arcu. Nullam eget eros non lectus malesuada convallis vitae quis magna. Nulla purus dolor, fringilla sed scelerisque ut, hendrerit in dui.</p>
+        <div class="button"><a href="tel:+18005555555">CALL</a></div> <div class="button grey"><a>APP</a></div> 
+
+    </div>      
+</div>
+
+
+<div id="enthusiasts" class="modal page device-height">
+    <div class="content">
+        <ul class="carousel_pager">
+            <li class="carousel_page1"><img src="images/carousel_bullet_active.png" /></li>
+            <li class="carousel_page2"><img src="images/carousel_bullet.png" /></li>
+            <li class="carousel_page3"><img src="images/carousel_bullet.png" /></li>
+            <li class="carousel_page4"><img src="images/carousel_bullet.png" /></li>
+            <li class="carousel_page5"><img src="images/carousel_bullet.png" /></li>
+        </ul>
+        <div class="carousel_wrapper device-height">
+            <div class="carousel_page device-width device-height" style="background-image:url(images/home_fma03.jpg)">
+                <h2>BMW Team RLL<br/ >Wins Sebring</br/></h2>
+                <div class="button"><a>Learn More</a></div> 
+            </div>
+            <div class="carousel_page device-width device-height" style="background-image:url(images/home_fma01.jpg)">
+                <h2>Panel #2</h2>
+                <div class="button"><a>Learn More</a></div> 
+            </div>
+            <div class="carousel_page device-width device-height" style="background-image:url(images/home_fma03.jpg)">
+                <h2>Panel #3</h2>
+                <div class="button"><a>More Info</a></div> 
+            </div>
+            <div class="carousel_page device-width device-height" style="background-image:url(images/home_fma01.jpg)">
+                <h2>Panel #4</h2>
+                <div class="button"><a>More Info</a></div> 
+            </div>
+            <div class="carousel_page device-width device-height" style="background-image:url(images/home_fma02.jpg)">
+                <h2>Panel #5</h2>
+                <div class="button"><a>More Info</a></div> 
+            </div>
+        </div>
+        <ul class="menu_landingpage device-width" id="enthusiast_menu">
+            <li>Performance Driving School</li>
+            <li>Video Gallery</li>
+            <li>Wallpapers &amp; Ringtones</li>
+        </ul>
+    </div>      
+</div>
+
+<div id="applications" class="modal page device-width device-height">
+    <div class="content">
+        <div id="apps_image1" class="apps_image"></div>
+
+        <div class="download_app"><img src="images/apps_download.jpg" alt="download app"></div><p><strong>BMW Evolve</strong><br />
+            Are you BMW EV Ready? <br />
+            <span class="read_more"><a href="#">Read more...</a></span></p>
+        <div class="clear"></div>
+        <div class="more_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec lobortis velit. Suspendisse accumsan fermentum justo, ut tristique mi consequat id. Phasellus massa lacus, bibendum non eleifend vitae, tincidunt et velit. Pellentesque tempor lectus a nisl eleifend commodo. <br/><span><a href="#">Less info...</a></span></div>
+
+        <div id="apps_image2" class="apps_image"></div>
+        <div class="download_app"><img src="images/apps_download.jpg" alt="download app"></div><p><strong>BMW Evolve</strong><br />
+            Are you BMW EV Ready?<br /> <span class="read_more"><a href="#">Read more...</a></span></p>
+        <div class="clear"></div>
+        <div class="more_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec lobortis velit. Suspendisse accumsan fermentum justo, ut tristique mi consequat id. Phasellus massa lacus, bibendum non eleifend vitae, tincidunt et velit. Pellentesque tempor lectus a nisl eleifend commodo.<br/><span><a href="#">Less info...</a></span></div>
+
+        <div id="apps_image3" class="apps_image"></div>
+        <div class="download_app"><img src="images/apps_download.jpg" alt="download app"></div><p><strong>BMW Evolve</strong><br />
+            Are you BMW EV Ready?<br /> <span class="read_more"><a href="#">Read more...</a></span></p>
+        <div class="clear"></div>
+        <div class="more_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec lobortis velit. Suspendisse accumsan fermentum justo, ut tristique mi consequat id. Phasellus massa lacus, bibendum non eleifend vitae, tincidunt et velit. Pellentesque tempor lectus a nisl eleifend commodo.<br/><span><a href="#">Less info...</a></span></div> 
+    </div>          
+</div>
+
+
+<div id="cpo" class="modal page device-width device-height">
+    <div id="roadside_image" class="device-width"></div>
+    <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris neque magna, tristique eget varius id, condimentum lacinia nunc. Mauris nisl lacus, aliquam sit amet dignissim ut, dignissim eget arcu. Nullam eget eros non lectus malesuada convallis vitae quis magna. Nulla purus dolor, fringilla sed scelerisque ut, hendrerit in dui.</p>
+        <div class="button"><a>GO NOW</a></div>
+
+    </div>  
+</div>
+
+<div id="finance" class="modal page device-width device-height">
+
+    <div id="fs_image" class="device-width"></div>
+    <div class="content">
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris neque magna, tristique eget varius id, condimentum lacinia nunc. Mauris nisl lacus, aliquam sit amet dignissim ut, dignissim eget arcu. Nullam eget eros non lectus malesuada convallis vitae quis magna. Nulla purus dolor, fringilla sed scelerisque ut, hendrerit in dui.</p>
+        <div class="button"><a href="#">Go Now</a></div> <div class="button grey"><a>See Offers</a></div> 
+
+    </div>      
+</div>
+
+<div id="join_us" class="modal page device-width device-height">
+    <div class="content">
+        <h1>Join Us</h1>
+    </div>
+</div>
+
+
+<div id="nav_lines" class="device-width">
+    <ul><li></li></ul>
+</div>
+
+<div id='bodystyle_selector' class='bodyselector device-width device-height'>
+    <div id='bodystyle_content_container' class='ui-draggable'></div>
+    <div id='bodystyle_navcontainer' class='device-width'>
+        <div class='tray_backbutton'></div>
+        <h1></h1>
+    </div>
+</div>
+
+<div id='model_selector' class='modelselector device-width device-height'>
+    <div id='model_content_container' class='device-width'></div>
+    <div id='model_navcontainer' class='device-width'>
+        <div class='tray_backbutton'></div>
+        <h1></h1>
+    </div>
+</div>
+
+<div id="touchpad" class="page device-width device-height"></div>
+<div id="grid" ontouchmove="event.preventDefault();">
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js" type="text/javascript"></script>
+<!-- <script src="http://code.jquery.com/jquery.min.js" type="text/javascript"></script> -->
+<script src="http://code.jquery.com/ui/1.8.22/jquery-ui.min.js" type="text/javascript"></script>
+
+<script src="js/locate/knockout-2.1.0.js"></script>
+<script src="js/locate/knockout.mapping-latest.js"></script>
+<script src="js/locate/knockoutCustomBindings.js"></script> 
+
+<script src="js/jquery.ui.touch-punch.min.js" type="text/javascript"></script>
+<script src="js/jquery.ba-hashchange.min.js" type="text/javascript"></script>
+<script src="js/jquery.backgroundpos.js" type="text/javascript"></script>
+<script src="js/jquery.touchwipe.min.js" type="text/javascript"></script>
+<script src="js/jquery.scrollTo-min.js" type="text/javascript"></script>
+<script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="js/jquery.livequery.js" type="text/javascript"></script>
+<!-- <script src="js/jquery.transit.min.js" type="text/javascript"></script> -->
+<script src="js/customSelect.jquery.js"></script>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places&sensor=false"></script>
+<script src="js/locate/tipTip_minified.js"></script>
+<script src="js/locate/markerclusterer.js"></script>
+<script src="js/locate/infobox.js"></script>
+<script src="js/locate/dealer.js"></script>
+<!-- <script src="js/locate/GeoLocation.js"></script> -->
+<script src="js/locate/dealerLocatorMaps.js"></script>
+<script src="js/bmw_mobile.js" type="text/javascript"></script>
+<script src="js/bmw_mobile_secondary.js" type="text/javascript"></script>
+<script src="js/data_controller.js" type="text/javascript"></script>
+<script src="js/selector.js" type="text/javascript"></script>
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+AuthName "Restricted Area" 
+AuthType Basic 
+AuthUserFile /home/bratliff/public_html/bmw_mobile/.htpasswd 
+AuthGroupFile /dev/null 
+require valid-user
